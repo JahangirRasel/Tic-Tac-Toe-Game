@@ -80,3 +80,25 @@ body{
     color: #242424;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 700px){
+    .game{
+        height: 52vmin;
+        width: 70vmin;
+    }
+    .game-container{
+        height: 90vmin;
+        
+    }   
+    .title{
+        font-size: 50px;
+    }
+    .box{
+   
+    font-size: 50px;
+    font-weight: bold;
+    }
+    .rset{
+        margin-top: 85px;
+    }
+}
